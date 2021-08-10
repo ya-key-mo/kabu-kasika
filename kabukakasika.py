@@ -3,7 +3,7 @@ import yfinance as yf
 import altair as alt
 import streamlit as st
 
-st.title('米国株価可視化アプリ')
+st.title('米国株価可視化アプリだよ')
 
 st.sidebar.write("""
 # GAFA株価
@@ -37,7 +37,7 @@ def get_data(days,tickers):
 
 
 st.sidebar.write("""
-## 株価の範囲指定
+## 株価の範囲指定だよよよよよよよ
 """)
 ymin, ymax = st.sidebar.slider(
     '範囲を指定してください。', 
